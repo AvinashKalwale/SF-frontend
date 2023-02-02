@@ -1,0 +1,19 @@
+body{
+    background-color: #282c34;
+    color: white;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+.div{
+    margin: 10px;
+   border: 1px solid white;
+   padding: 20px;
+}

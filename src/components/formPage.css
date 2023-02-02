@@ -1,0 +1,90 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  Form > div{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  Form > div >label{
+    margin: 0.5rem;
+    align-items: center;
+   
+  }
+  
+.input {
+  padding: .5rem;
+  min-width: 25rem;
+  margin-left: 5px;
+  align-items: center;
+  margin-top: 4px;
+  }
+  
+  .input2{
+    padding: .5rem;
+    min-width: 25rem;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 4px;
+  }
+  
+  .input3{
+    padding: .5rem;
+    min-width: 25rem;
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 4px;
+  }
+
+  .input4{
+    padding: .5rem;
+    min-width: 25rem;
+    margin-left: 47px;
+    align-items: center;
+    margin-top: 4px;
+  }
+
+  button{
+    min-width: 16rem;
+    margin: 1rem;
+    min-height: 2rem;
+    font-size: large;
+  }
